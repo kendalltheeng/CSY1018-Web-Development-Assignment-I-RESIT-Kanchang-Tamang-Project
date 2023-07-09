@@ -177,6 +177,9 @@ input[type=checkbox] {
     .hamburger {
       display: block;
     }
+    .navbar{
+      margin-bottom: 200px;
+    }
 }
 /*-----portfolio----*/
 .portfolio{
