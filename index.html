@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>HOME-Kanchan Tamang</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="website icon" type="png" href="images/logo2.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <section class="header">
+        <nav class="navbar">
+            <!-- LOGO -->
+            <div class="logo"> <a href="index.html" class="active"><img src="images/logo2.png"></a></div>
+
+            <!-- NAVIGATION MENU -->
+            <ul class="nav-links">
+
+                <!-- USING CHECKBOX HACK -->
+                <input type="checkbox" id="checkbox_toggle" />
+                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+                <!-- NAVIGATION MENUS -->
+                <div class="menu">
+
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                    <li><a href="sitereport.html">SITEREPORT</a></li>
+                    <li><a href="workexperience.html">WORKEXPERIENCE</a></li>
+                </div>
+            </ul>
+        </nav>
+        <div class="text-box">
+            <h1>안녕하세요 친구둘!!!</h1>
+            <p>HI EVERYONE!!<br>My name is Kanchan Tamang 😊I want to welcome you to my website💗. </p>
+            <a href="" class="btn">Click me</a>
+        </div>
+    </section>
+    <section class="workexperience">
+        <h1>WORKEXPERIENCE</h1>
+        <p>I have listed below my workexperiences.</p>
+        <div class="row">
+            <div class="workexperience-col">
+                <h3>Data Analyst</h3>
+                <p>
+                    <li>Aided in gathering, organizing, and cleaning massive datasets for the data analysis team.</li>
+                    <li>To find trends and outliers, exploratory data analysis was done.</li>
+                    <li> Workflows for data analysis were developed and improved in collaboration with team members.
+                    </li>
+                    <li>Utilizing programs like Excel and Tableau, I produced charts and visualizations to illustrate
+                        data findings.</li>
+                </p>
+            </div>
+            <div class="workexperience-col">
+                <h3>Dance Teacher</h3>
+                <p>
+                    <li>Helped the lead dance instructor teach a variety of dance forms to children between the ages of
+                        5 and 25.</li>
+                    <li> Dance routines and techniques were demonstrated to make sure pupils understood and replicated
+                        them correctly.</li>
+                    <li> Assistance was given one-on-one to pupils who needed extra help or adjustments.</li>
+                    <li>Aided with rehearsals and choreography for recitals and concerts.</li>
+                    <li> Assisted with planning and running dance workshops and camps over the summer and winter breaks.
+                    </li>
+                </p>
+            </div>
+            <div class="workexperience-col">
+                <h3>UI/UX Designer</h3>
+                <p>
+                    <li>Aided in the creation of wireframes, mockups, and prototypes by the UI/UX design team.</li>
+                    <li>Conducted research and competitive analysis to find industry trends and best practices.</li>
+                    <li>To make sure that design concepts could be implemented, we worked with developers.</li>
+                    <li>Took part in design reviews and offered helpful criticism on design iterations.</li>
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-----portfolio-->
+    <section class="portfolio">
+        <h1>My Portfolio</h1>
+        <p>Check out my portfolio.</p>
+        <div class="image-container">
+        <img src="images/img1.jpeg">
+        <img src="images/img2.jpeg">
+        <img src="images/img3.jpeg">
+        <img src="images/img4.jpeg">
+        <img src="images/img5.jpeg">
+        <img src="images/img6.jpeg">
+        <img src="images/img7.jpeg">
+        <img src="images/img8.jpeg">
+        <img src="images/img9.jpeg">
+        <img src="images/img10.jpeg">
+        <img src="images/img11.jpeg">
+        <img src="images/img12.jpeg">
+        <img src="images/img13.jpeg">
+        <img src="images/img14.jpeg">
+        <img src="images/img15.jpeg">
+        <img src="images/img16.jpeg">
+        <img src="images/img17.jpeg">
+        <img src="images/img18.jpeg">
+        <img src="images/img19.jpeg">
+        </div>
+
+    </section> 
+    <!------contact-->
+    <section class="ctc">
+        <h1>Want to know more about me?</h1>
+        <a href="Contact.html" class="btn">CONTACT ME</a>
+    </section>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>
